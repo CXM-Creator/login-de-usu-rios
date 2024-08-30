@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/pexels-eberhardgross-1421903.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 400px;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  box-shadow: 3px 2px 4px 3px;
+}
+
+.entradas {
+  width: 300px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  font-family: fonte2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-family: fonte2;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  color: white;
+}
+
+.button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  margin-left: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:active {
+  background-color: transparent;
+  color: white;
+  transition: 0.3ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30%;
+}
+
+a:hover {
+  border-bottom: 1px solid wheat;
+}
+@font-face {
+  font-family: fonte;
+  src: url(../font/Varelmo.ttf);
+}
+@font-face {
+  font-family: fonte2;
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
